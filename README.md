@@ -1,12 +1,10 @@
- intelligent AI-powered agent that answers natural language questions related to e-commerce data — powered by Gemini AI, MySQL, and Streamlit.
 
-> 🔍 Ask anything like “What is my total sales?” or “Which product had the highest CPC?” and get smart insights, SQL queries, and visualizations.
 
 ---
 
 ## 📦 Project Structure
 
-Markdown
+
 
 # 🧠 GenAI E-commerce Assistant Bot
 
