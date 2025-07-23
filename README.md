@@ -14,6 +14,29 @@ An intelligent AI-powered agent that answers natural language questions related 
 
 ---
 
+## 🚀 Features
+
+
+✅ **Natural Language to SQL:** Converts user questions into valid PostgreSQL `SELECT` queries.
+
+✅ **Gemini 1.5 Flash LLM Integration:** Leverages Google's powerful large language model for understanding and query generation.
+
+✅ **Retrieval-Augmented Generation (RAG):** Integrates FAISS and Sentence Transformers to retrieve relevant context (database schema, column descriptions, example queries) for the LLM, significantly improving SQL generation accuracy.
+
+✅ **Robust Data Preprocessing:** Cleans and transforms raw CSV data (handling missing values, cleaning numeric strings, converting data types, forcing categorical IDs to string type) before loading into PostgreSQL.
+
+✅ **Dynamic Data Visualization:** Automatically identifies numeric, categorical, and datetime columns from query results to enable interactive charts (Bar, Pie, Line, Treemap, Scatter, Box, Histogram) using Plotly and Matplotlib.
+
+✅ **Interactive Frontend:** A clean Streamlit dashboard for seamless interaction.
+
+✅ **Chat History:** Maintains a history of questions and generated responses for easy review.
+
+✅ **Detailed Output:** Displays the generated SQL query and the raw data table alongside the bot's answer.
+
+
+---
+
+
 ## 📦 Project Structure
 
 GenAI_Ecommerce_Project/
@@ -40,29 +63,6 @@ GenAI_Ecommerce_Project/
 ├── requirements.txt
 └── README.md                 # Project README file
 
----
-
-## 🚀 Features
-
-
-✅ **Natural Language to SQL:** Converts user questions into valid PostgreSQL `SELECT` queries.
-
-✅ **Gemini 1.5 Flash LLM Integration:** Leverages Google's powerful large language model for understanding and query generation.
-
-✅ **Retrieval-Augmented Generation (RAG):** Integrates FAISS and Sentence Transformers to retrieve relevant context (database schema, column descriptions, example queries) for the LLM, significantly improving SQL generation accuracy.
-
-✅ **Robust Data Preprocessing:** Cleans and transforms raw CSV data (handling missing values, cleaning numeric strings, converting data types, forcing categorical IDs to string type) before loading into PostgreSQL.
-
-✅ **Dynamic Data Visualization:** Automatically identifies numeric, categorical, and datetime columns from query results to enable interactive charts (Bar, Pie, Line, Treemap, Scatter, Box, Histogram) using Plotly and Matplotlib.
-
-✅ **Interactive Frontend:** A clean Streamlit dashboard for seamless interaction.
-
-✅ **Chat History:** Maintains a history of questions and generated responses for easy review.
-
-✅ **Detailed Output:** Displays the generated SQL query and the raw data table alongside the bot's answer.
-
-
----
 
 ## 🧠 Tech Stack
 
