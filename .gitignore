@@ -1,0 +1,14 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+venv/
+
+# Ignore OS & editor files
+.DS_Store
+*.swp
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore environment variables
+*.env
